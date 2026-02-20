@@ -1,7 +1,9 @@
 package Service;
 
 import Entity.Admin;
+import Entity.User;
 import Repository.AdminRepository;
+import Repository.UserRepository;
 
 @Service
 public class LoginServiceImpl implements LoginService{
